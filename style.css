@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+:root {
+    --font-Sans: 'Open Sans', sans-serif;
+    --bg-color: #ffffff;
+    --bg-plan-button: #ffffff;
+    --plan-title:rgb(163, 163, 163);
+    --primarytext-color: #000000;
+    --highlighted-color: rgb(179, 179, 179);
+    --font-color-dark:rgb(71, 71, 71);
+    --font-thick: 'Open Sans', sans-serif;
+    --font-color-for-info: #858383;
+    --font: 'Roboto', sans-serif;
+    --sign-up-opt-color: rgb(0, 110, 255);
+}
+
+body{
+    font-family: var(--font);
+    background-color: var(--bg-color);
+}
+
+.parent {
+    color: var(--primarytext-color);
+}
+.parent a{
+    text-decoration: none;
+}
+.title {
+    display: flex;
+    justify-content: center;
+}
+
+.type-of-plan{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 40px;
+}
+.type-of-plan a{
+    color: var(--primarytext-color);
+    font-family: var(--font-thick);
+}
+
+.yearly-plan a{
+    color: gray;
+}
+.hero-section{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 30px;
+    padding-left: 58vh ;
+    width: 40%;
+}
+
+.hero-section h6{
+    font-size: 14px;
+    font-family: var(--font-thick);
+    color: var(--font-color-for-info);
+}
+
+.hero-section h4{
+    font-size: 20px;
+    color: var(--plan-title);
+}
+
+.hero-section h5{
+    font-family: var(--font-thick);
+    font-size: 15px;
+    color: var(--font-color-dark);
+    
+}
+
+.plans-border-1{
+    background-color: var(--bg-plan-button);
+    padding: 40px;
+    box-shadow: 2px 2px 10px #00000052;
+}
+
+
+
+.plans-border-2{
+    background-color: var(--bg-plan-button);
+    padding: 40px;
+    box-shadow: 2px 2px 10px #00000052;
+}
+
+.plans-border-3{
+    background-color: var(--bg-plan-button);
+    padding: 40px;
+    box-shadow: 2px 2px 10px #00000052;
+}
+
+.info{
+    display: flex;
+    justify-content: center;
+    font-family: var(--font-thick);
+    color: var(--font-color-for-info);
+
+}
+
+.signup-option{
+    padding-top: 60px;
+    display: flex;
+    justify-content: center;
+}
+
+.signup-option a{
+    font-family: var(--font-thick) ;
+    color: var(--bg-color);
+    background-color: var(--sign-up-opt-color);
+    padding: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 10px;
+}
+
+.signup-option a:hover{
+    background-color: rgb(0, 132, 255);
+    transition: 0.4s;
+}
